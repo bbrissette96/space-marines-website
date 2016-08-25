@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Beau Brissette SE111.02 1/7/2016 Assignment 4, Bio part 4 -->
+<meta charset="UTF-8">
+<title>Bio Part 4</title>
+<link rel="stylesheet" type="text/css" href="main.css" />
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="pageLoad()">
+<section></section>
+<nav></nav>
+<article></article>
+<aside></aside>
+<div id="wrapper">
+<!-- Header -->
+	<div id="header">
+		<h1 id="name">Beau <span class="lastname">Brissette</span></h1>
+		<div id="nav">
+			<a class="btn" href="index.html">Home</a>
+			<a class="btn" href="schooling.html">Schooling</a>
+			<a class="btn" href="hobbies.html">Hobbies</a>
+		</div>
+
+	</div><!-- END Header -->
+	<div id="content-container"><!-- Content Container -->
+	<section id="leftsection">
+	<article class="article">
+		<h2 class="article-title">About Me</h2>
+		<img src="images/heavymetal.jpg" alt="Some Pretty Awesome Bands" title="Heavy Metal Bands" />
+		<p>I really Love Heavy metal.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin diam justo, scelerisque non felis porta, placerat vestibulum nisi. Vestibulum ac elementum massa. In rutrum quis risus quis sollicitudin. Pellentesque non eros ante. Vestibulum sed tristique massa. Quisque et feugiat risus, eu tristique felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Pellentesque varius ipsum in urna semper volutpat. Etiam ac magna scelerisque, sodales enim at, interdum nibh. Nulla nec blandit orci. Ut suscipit sollicitudin varius. Etiam ut bibendum purus, sit amet tristique lectus.</p>
+		<h1>What Can JavaScript Do?</h1>
+		<p id="demo">JavaScript can change HTML content.</p> <!-- JavaScript for content change -->
+		<button type="button"
+		onclick="document.getElementById('demo').innerHTML = 'This is the content that replaced the previous content!!!!!'">
+		Click Me!</button><!-- End JavaScript for content change -->
+		<br>
+		<h1>Descending list FORM!!</h1>
+		<form action="biopart4thankyou.html"><!-- Form Element Start -->
+			<select name="Classes">
+			<option value="html">HTML</option>
+			<option value="windows7">Windows 7</option>
+			<option value="english">English 101</option>
+			<option value="c++">C++</option>
+			</select>
+			<br><br>
+			<input type="submit">
+		</form><!-- Form Element End -->
+
+	</article>
+	</section>
+
+
+	</div><!-- END Content Container -->
+	<div id="footer">
+		<p>Beau Brissette, Html & JavaScript.</p>
+		<p class="login">Click Here to Login</p>
+	</div>
+</div>
+
+</body>
+</html>
