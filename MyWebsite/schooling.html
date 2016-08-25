@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Beau Brissette SE111.02 1/7/2016 Assignment 4, Bio part 4 -->
+<meta charset="UTF-8">
+<title>Bio Part 4</title>
+<link rel="stylesheet" type="text/css" href="main.css" />
+<script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+
+<div id="wrapper">
+<!-- Header -->
+	<div id="header">
+		<h1 id="name">Beau <span class="lastname">Brissette</span></h1>
+		<div id="nav">
+			<a class="btn" href="index.html">Home</a>
+			<a class="btn" href="schooling.html">Schooling</a>
+			<a class="btn" href="hobbies.html">Hobbies</a>
+		</div><!-- End Header -->
+
+	</div>
+	<div id="content-container"><!-- Content Container -->
+	<section id="rightsection">
+	<article class="article2">
+		<h2 class="article-title">About My School</h2>
+		<img src="images/neit.jpg" alt="This is my School." />
+		<p>I really Love Playing Guitar.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin diam justo, scelerisque non felis porta, placerat vestibulum nisi. Vestibulum ac elementum massa. In rutrum quis risus quis sollicitudin. Pellentesque non eros ante. Vestibulum sed tristique massa. Quisque et feugiat risus, eu tristique felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Pellentesque varius ipsum in urna semper volutpat. Etiam ac magna scelerisque, sodales enim at, interdum nibh. Nulla nec blandit orci. Ut suscipit sollicitudin varius. Etiam ut bibendum purus, sit amet tristique lectus.</p>
+		<h1>JavaScript can change the style of an HTML element.</h1><!-- JavaScript for content change -->
+		<p id="textmod">This text can change with the magic of JavaScript.</p>
+		<button type="button" onclick="textModifier()">Click Me!</button><!-- End JavaScript for content change -->
+		<p id="date">Click this to display the Date and Time!!!!!!!!!.</p>
+		<button type="button" onclick="displayDate()">Display Date</button>
+		<p>These are all the Classes I am taking this Quarter:</p>
+		<button onclick="schoolArray()">Yea...You know you want to click me.</button>
+		<p id="classes">This is a form element for a number line with some addition bruh!</p>
+		<form action="biopart4thankyou.html" oninput="x.value=parseInt(a.value)+parseInt(b.value)"><!-- Form Element Start -->
+			0
+			<input type="range" id="a" name="a" value="50">
+			100 +
+			<input type="number" id="b" name="b" value="50">
+			=
+			<output name="x" for="a b"></output>
+			<br><br>
+			<input type="submit">
+		</form><!-- Form Element End -->
+
+	</article>
+	</section>
+
+	</div><!-- End Content Container -->
+	<div id="footer">
+		<p>Beau Brissette, Html & JavaScript.</p>
+		<p class="login">Click Here to Login</p>
+	</div>
+</div>
+
+
+</body>
+</html>
