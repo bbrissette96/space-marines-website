@@ -14,7 +14,7 @@ function textModifier() {
 }// used to change color and size of text
 
 function pageLoad() {
-    alert("This page has loaded like a Champ!");
+    alert("Beware the alien, the mutant, and the heretic!");
 }// used to display page loaded alert
 
 function displayDate() {
