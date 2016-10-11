@@ -7,7 +7,7 @@ body{
 	margin:0;
 	font-family:Arial;
 	font-size:20px;
-	background-image:url("images/spaceMarine.jpg");
+	background-image:url("images/inHisName.jpg");
 }
 
 #wrapper {
@@ -24,7 +24,7 @@ body{
 		width:900px;
 		height:70px;
 		padding:30px;
-		background-image:url("images/starwars.jpg");
+		background-image:url("images/marineChaos.jpg");
 		color:white;
 }
 
